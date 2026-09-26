@@ -7,5 +7,33 @@
 
 body {
     background: url("coffee-hero-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .menulinks {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
 }
